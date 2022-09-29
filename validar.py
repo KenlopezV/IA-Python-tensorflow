@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from tf.keras.utils import load_img
+from tf.keras.utils import load_img, img_to_array
 from keras.models import load_model
 
 longitud, altura = 150, 150 #tiene que ser la misma que se definio en el entrenamiento
